@@ -48,30 +48,12 @@ fi
 # Process Arguments
 case "$1" in
 start)
-  if [ -z "$2" ]; then
-    echo "Error: Missing options for command 'start'"
-    usage
-    exit 1
-  fi
-
   start "$2"
   ;;
 stop)
-  if [ -z "$2" ]; then
-    echo "Error: Missing options for command 'stop'"
-    usage
-    exit 1
-  fi
-
   stop "$2"
   ;;
 console)
-  if [ -z "$2" ]; then
-    echo "Error: Missing options for command 'console'"
-    usage
-    exit 1
-  fi
-
   console "$2"
   ;;
 update)

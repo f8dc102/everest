@@ -17,6 +17,6 @@ wildcraft)
   screen -S wildcraft -X stop
   ;;
 *)
-  echo -e "Usage: $0 [proxy|wildcraft]"
+  echo -e "Usage: $(basename $0) [proxy|wildcraft]"
   ;;
 esac

@@ -10,16 +10,16 @@
 *.tmp
 *.pem
 *.json
+*.db
 
 logs/
 cache/
 versions/
 lib/
 libs/
+servers/wildcraft/libraries/
 
 help.yml
 permissions.yml
 
-wildcraft/wwild
-wildcraft/wwild_nether
-wildcraft/wwild_the_end
+servers/wildcraft/w*

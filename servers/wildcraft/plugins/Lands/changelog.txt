@@ -1,0 +1,2 @@
++ Added: You can now change the type of the camp block
++ Added: [Suggestion] Random teleportation not respects the size of your world border and not just config

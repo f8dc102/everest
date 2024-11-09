@@ -20,6 +20,6 @@ wildcraft)
   bash "${EV_ROOT_PATH}/scripts/init.d/init_wildcraft.sh"
   ;;
 *)
-  echo -e "Usage: $0 [proxy|wildcraft]"
+  echo -e "Usage: $(basename $0) [proxy|wildcraft]"
   ;;
 esac
