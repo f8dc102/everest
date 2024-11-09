@@ -1,7 +1,7 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # Load .env file
-. "$(cd "$(dirname "$0")" && pwd)/../.env"
+. "$(dirname "$0")/../.env"
 
 # Update Paper Engine
 PROJECT=${EV_ENGINE_SERVER}

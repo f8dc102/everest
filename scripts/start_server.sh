@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Load .env file
-. "$(cd "$(dirname "$0")" && pwd)/../.env"
+. "$(dirname "$0")/../.env"
 
 # Check Arguments
 if [ $# -lt 1 ]; then

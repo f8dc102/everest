@@ -1,6 +1,7 @@
 # Remove Dummies
 .DS_Store
 .console_history
+.env
 
 *.jar
 *.log

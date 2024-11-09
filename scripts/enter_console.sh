@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 case $1 in
 "proxy")
@@ -7,10 +7,7 @@ case $1 in
 "wildcraft")
   screen -r wildcraft
   ;;
-"develop")
-  screen -r develop
-  ;;
 *)
-  echo -e "Usage: $0 [proxy|wildcraft|develop]"
+  echo -e "Usage: $0 [proxy|wildcraft]"
   ;;
 esac

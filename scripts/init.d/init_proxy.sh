@@ -1,7 +1,7 @@
-#!bin/bash
+#!/bin/bash
 
 # Load .env file
-. "$(cd "$(dirname "$0")" && pwd)/../.env"
+. "$(dirname "$0")/../../.env"
 
 # Go to the server directory
 cd "${EV_ROOT_PATH}/servers/proxy"

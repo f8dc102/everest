@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# Load .env file
-. "$(cd "$(dirname "$0")" && pwd)/../.env"
-
 # Check Arguments
 if [ $# -lt 1 ]; then
   echo "Error: No command provided."
