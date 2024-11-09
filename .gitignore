@@ -1,0 +1,24 @@
+# Remove Dummies
+.DS_Store
+.console_history
+
+*.jar
+*.log
+*.old
+*.swp
+*.tmp
+*.pem
+*.json
+
+logs/
+cache/
+versions/
+lib/
+libs/
+
+help.yml
+permissions.yml
+
+wildcraft/wwild
+wildcraft/wwild_nether
+wildcraft/wwild_the_end
